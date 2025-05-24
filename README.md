@@ -1,8 +1,10 @@
 # Syn3DTxt_render Visualizer
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://syn3dtxt-visualizer.streamlit.app/)
+![Visualizer](https://img.shields.io/badge/Visualizer-8A2BE2)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://syn3dtxt-visualizer.streamlit.app/) [![GitHub Repo](https://img.shields.io/badge/GitHub-SynTxt--Gen-blue?logo=github)](https://github.com/theohsiung/SynTxt-Gen)
 
 Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
+
+Main Repository: [SynTxt-Gen](https://github.com/theohsiung/SynTxt-Gen)
 
 This project provides visualization and rendering tools for Syn3DTxt, as presented at the CVPR 2025 Syntagen Workshop.
 
@@ -35,27 +37,16 @@ Run the interactive demo:
 streamlit run app.py
 ```
 
-#### 2. Generate 3D Scene Text Data
-Example command:
-```bash
-python Gen2.py --text_dir <your_text_dir> --data_dir <output_dir> --file_range [0,50000]
-```
-
-#### 3. Utility Functions
-- See `utils/` for reusable functions like `ImageTransformer`, `put_bg`, and `spherical2RGB`.
-- Example usage of `put_bg`:
-  ```python
-  from utils.put_bg import put_bg
-  bg, result1, result2 = put_bg(image1, image2, bg_dir="./datasets/bg_data/bg_img")
-  ```
-
 ## Project Structure
 ```
 Syn3DTxt_render/
-├── app.py                # Streamlit demo for visualization
-├── Gen2.py               # Main script for data generation
 ├── utils/                # Utility modules for image processing
 ├── static/               # Static assets (e.g., images)
+├── app.py                # Streamlit demo for visualization
+├── Gen2.py               # Main script for data generation
+├── packages.txt          # Package list for dependencies
+├── README.md             # Project documentation
+├── requirements.txt      # Python package requirements
 ```
 
 ## Reference
@@ -68,7 +59,7 @@ If you use this tool, please cite:
 
 
 ## Acknowledgements
-- Developed for the Syn3DTxt project and Syntagen Workshop @ CVPR 2024.
+- Developed for the Syn3DTxt project and Syntagen Workshop @ CVPR 2025.
 
 ---
 中文版簡介：
