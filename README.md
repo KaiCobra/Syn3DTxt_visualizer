@@ -1,8 +1,8 @@
 # Syn3DTxt_render Visualizer
 
-Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://arxiv.org/abs/2403.07342)
+Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
 
-This project provides visualization and rendering tools for Syn3DTxt, as presented at the CVPR 2024 Syntagen Workshop.
+This project provides visualization and rendering tools for Syn3DTxt, as presented at the CVPR 2025 Syntagen Workshop.
 
 ## Features
 - 3D scene text generation visualization
@@ -59,9 +59,11 @@ Syn3DTxt_render/
 ## Reference
 If you use this tool, please cite:
 
-> Syn3DTxt: Embedding 3D Cues for Scene Text Generation. CVPR 2024 Syntagen Workshop.
+> Syn3DTxt: Embedding 3D Cues for Scene Text Generation. CVPR 2025 SyntaGen Workshop.
 
-[arXiv link](https://arxiv.org/abs/2403.07342)
+[OpenReview link (CVPR 2025 SyntaGen Workshop)](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
+
+
 
 ## Acknowledgements
 - Developed for the Syn3DTxt project and Syntagen Workshop @ CVPR 2024.
