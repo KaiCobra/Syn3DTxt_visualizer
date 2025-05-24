@@ -1,12 +1,14 @@
 # Syn3DTxt_render Visualizer
 ![Visualizer](https://img.shields.io/badge/Visualizer-8A2BE2)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://syn3dtxt-visualizer.streamlit.app/) [![GitHub Repo](https://img.shields.io/badge/GitHub-SynTxt--Gen-blue?logo=github)](https://github.com/theohsiung/SynTxt-Gen)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-SynTxt--Gen-blue?logo=github)](https://github.com/theohsiung/SynTxt-Gen)
 
 Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
 
 Main Repository: [SynTxt-Gen](https://github.com/theohsiung/SynTxt-Gen)
 
-This project provides visualization and rendering tools for Syn3DTxt, as presented at the CVPR 2025 Syntagen Workshop.
+This project provides visualization and rendering tools for Syn3DTxt, as presented at the CVPR 2025 Syntagen Workshop. 
+
+Click here to try it out [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://syn3dtxt-visualizer.streamlit.app/)
 
 ## Features
 - 3D scene text generation visualization
