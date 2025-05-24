@@ -19,7 +19,6 @@ with col1:
     n_phi = st.slider("n_phi", 2, 50, 10)
     theta = st.slider('θ (pitch)', -90, 90, 0)
     phi = st.slider('φ (yaw)', -75, 75, 0)
-    gamma = st.slider('γ (roll)', -180, 180, 0)
 
 # 2. 生成球面點雲
 # 參考 sphere.py 寫法，產生球面點雲
@@ -101,7 +100,7 @@ bgr_tuple = tuple(int(v) for v in bgr)
 img_path = os.path.join('static', 'Text_img.png')
 
 transformer = ImageTransformer(img_path, (256, 256))
-img_rot = transformer.rotate_along_axis(theta=theta, phi=phi, gamma=gamma)
+img_rot = transformer.rotate_along_axis(theta=theta, phi=phi, gamma=0)
 img_colored = replace_white_with_color(img_rot.copy(), target_rgb=bgr_tuple)
 
 st.image(img_colored, channels="BGR", caption=f"θ={theta}, φ={phi}, color={bgr_tuple}")
