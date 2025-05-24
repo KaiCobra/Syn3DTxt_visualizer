@@ -113,7 +113,7 @@ class ImageTransformer(object):
                         [0, 0, 0, 1]])
 
         # Composed rotation matrix with (Rz, Ry, Rx): T = Rz(θ)·Ry(φ)·Rx(γ)
-        R = np.dot(np.dot(RZ, RY), RX)
+        R = np.dot(np.dot(RX, RY), RZ)
 
         # Translation matrix
         T = np.array([  [1, 0, 0, dx],
