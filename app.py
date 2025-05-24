@@ -10,7 +10,7 @@ from Gen2 import replace_white_with_color
 
 st.set_page_config(page_title="SyntaGen 互動 Demo", layout="wide")
 
-st.title("3D 球面散點圖與圖片旋轉換色")
+st.title("3D 球面散點圖與圖片旋轉換色（Streamlit 版）")
 
 # 1. 球面參數設定
 col1, col2 = st.columns([1,2])
