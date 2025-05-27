@@ -54,9 +54,17 @@ Syn3DTxt_render/
 ## Reference
 If you use this tool, please cite:
 
-> Syn3DTxt: Embedding 3D Cues for Scene Text Generation. CVPR 2025 SyntaGen Workshop.
+> @misc{hsiung2025syn3dtxtembedding3dcues,
+>      title={Syn3DTxt: Embedding 3D Cues for Scene Text Generation}, 
+>      author={Li-Syun Hsiung and Jun-Kai Tu and Kuan-Wu Chu and Yu-Hsuan Chiu and Yan-Tsung Peng and Sheng-Luen Chung and Gee-Sern Jison Hsu},
+>      year={2025},
+>      eprint={2505.18479},
+>      archivePrefix={arXiv},
+>      primaryClass={cs.CV},
+>      url={https://arxiv.org/abs/2505.18479}, 
+>}
 
-[OpenReview link (CVPR 2025 SyntaGen Workshop)](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
+[OpenReview link (CVPR 2025 SyntaGen Workshop)](https://arxiv.org/abs/2505.18479)
 
 
 
