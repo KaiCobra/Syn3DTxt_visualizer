@@ -2,7 +2,7 @@
 ![Visualizer](https://img.shields.io/badge/Visualizer-8A2BE2)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-SynTxt--Gen-blue?logo=github)](https://github.com/theohsiung/SynTxt-Gen)
 
-Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://openreview.net/forum?id=QmY75NG5Vp&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3Dthecvf.com%2FCVPR%2F2025%2FWorkshop%2FSyntaGen%2FAuthors%23your-submissions))
+Visualizer for [Syn3DTxt: Embedding 3D Cues for Scene Text Generation](https://arxiv.org/abs/2505.18479)
 
 Main Repository: [SynTxt-Gen](https://github.com/theohsiung/SynTxt-Gen)
 
